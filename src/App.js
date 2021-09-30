@@ -1,9 +1,17 @@
 import "./App.css";
-
 import React from "react";
+import TodoComponent from "./Components/TodoComponent";
+
+
 
 function App() {
-  return <div>This is my React App</div>;
+  return (
+    <div>
+      
+      <TodoComponent />
+
+    </div>
+  );
 }
 
 export default App;
